@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아쎄이!!</title>
+
+    <!-- 이게 같은 폴더에 있는 calcJs.js 파일을 불러오는 거 -->
+    <script src="calcJs.js"></script>
+
+</head>
+<body>
+    <h1>어서오고</h1>
+    <input id="num1" type="number" placeholder="숫자1 입력해보슈">  
+    <input id="num2" type="number" placeholder="숫자2 입력해보슈">
+
+    <br>
+
+    <label for="frontAddButton">자바스크립트에서 계산하는 버튼</label>
+    <button id="frontAddButton" onclick="frontAddNumbers()">더하기</button>
+    <button id="frontSubtractButton" onclick="frontSubtractNumbers()">빼기</button>
+
+    <br>
+
+    <label for="backAddButton">자바에서 계산하는 버튼</label>
+    <button id="backAddButton">더하기</button>
+    <button id="backSubtractButton">빼기</button>
+
+    <p id="result">결과가 여기에 표시될꺼임.</p>
+</body>
+
+</html>
